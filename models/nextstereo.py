@@ -169,7 +169,7 @@ class nextstereo(nn.Module):
             BasicConv(96, 32, kernel_size=3, stride=1, padding=1),
             nn.Conv2d(32, 8, kernel_size=1, padding=0, stride=1, bias=False))
         self.agg = BasicConv(8, 8, is_3d=True, kernel_size=(1, 5, 5), padding=(0, 2, 2), stride=1)
-        self.AggNeXt = AggNeXt(block_counts=[2, 2, 1, 1, 1, 1, 1, 2, 2], exp_r=3, kernel_size=3)
+        self.AggNeXt = AggNeXt(block_counts=[2, 2, 2, 2, 2, 2, 2, 2, 2], exp_r=3, kernel_size=5)
         self.corr_stem = BasicConv(1, 8, is_3d=True, kernel_size=3, stride=1, padding=1)
         if self.train_refine:
             self.sr_context_upsample = sr_context_upsample(num_block=20)
