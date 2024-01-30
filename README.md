@@ -14,8 +14,8 @@
 ### Create a virtual environment and activate it.
 
 ```
-conda create -n fast_acv python=3.8
-conda activate fast_acv
+conda create -n nextstereo python=3.8
+conda activate nextstereo
 ```
 ### Dependencies
 
@@ -34,7 +34,6 @@ pip install basicsr
 Download [Scene Flow Datasets](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html), [KITTI 2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo), [KITTI 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 
 ## Train
-Use the following command to train Fast-ACVNet+ or Fast-ACVNet on Scene Flow
 
 Firstly, train network for 24 epochs,
 ```
