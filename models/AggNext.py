@@ -192,7 +192,7 @@ class AggNeXt(nn.Module):
                  kernel_size=5,  # Ofcourse can test kernel_size
                  do_res=True,  # Can be used to individually test residual connection
                  do_res_up_down=True,  # Additional 'res' connection on up and down convs
-                 block_counts: list = [2, 2, 1, 1, 1, 1, 1, 2, 2],  # Can be used to test staging ratio:
+                 block_counts: list = [2, 2, 2, 2, 2, 2, 2, 2, 2],  # Can be used to test staging ratio:
                  # [3,3,9,3] in Swin as opposed to [2,2,2,2,2] in nnUNet
                  CGE=True,
                  ):
