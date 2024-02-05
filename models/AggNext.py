@@ -433,3 +433,20 @@ class AggNeXt(nn.Module):
 
         return x
 
+if __name__ == '__main__':
+    # Usage
+    model = AggNeXt().cuda()
+    inputs = torch.randn(1, 8, 48, 80, 304).cuda()
+    
+    features_left = []
+    features_left0 = torch.randn(1, 96, 80, 304).cuda()
+    features_left1 = torch.randn(1, 64, 40, 152).cuda()
+    features_left2 = torch.randn(1, 192, 20, 76).cuda()
+    features_left3 = torch.randn(1, 160, 10, 38).cuda()
+    features_left.append(features_left0)
+    features_left.append(features_left1)
+    features_left.append(features_left2)
+    features_left.append(features_left3)
+    
+    outputs = model(inputs, features_left)
+    print(outputs.shape)
