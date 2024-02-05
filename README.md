@@ -2,6 +2,9 @@
   <h1 align="center">NeXt-Stereo: Focusing on Cost Aggregation and Disparity Refinement for Lightweight Stereo-Matching</h1>
   <p align="center">
 
+"### Paper Under Submission
+
+I am currently in the process of submitting my paper to an academic journal. Once the paper is accepted, I will update this section with relevant information. Thank you for your interest and patience."
 
 # How to use
 
