@@ -215,3 +215,10 @@ class nextstereo(nn.Module):
         else:
             return [pred_up * 4]
 
+
+if __name__ == '__main__':
+    model = nextstereo().cuda()
+    inputs1 = torch.randn(1, 3, 320, 1216).cuda()
+    inputs2 = torch.randn(1, 3, 320, 1216).cuda()
+    outputs = model(inputs1, inputs2)
+    print("outputs:", outputs[0].shape)
