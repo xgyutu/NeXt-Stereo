@@ -53,7 +53,7 @@ python main_kitti.py --loadckpt ./checkpoints/sceneflow/complete/checkpoint_0000
 
 ### Pretrained Model
 NeXt-Stereo
-* [sceneflow]([https://drive.google.com/drive/folders/15pVddbGU6ByYWRWB_CFW2pzANU0mzdU5?usp=share_link](https://drive.google.com/drive/folders/1H353C-BNluA1RGXBAJqeMwVW3vVkv8B_?usp=sharing))
+* [sceneflow](https://drive.google.com/file/d/1lBeCbvqwO3--5CQyFwnEear5q_EJK2zT/view?usp=sharing)
 
 Generate disparity images of KITTI test set,
 ```
