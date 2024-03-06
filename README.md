@@ -1,4 +1,4 @@
-<p align="center">
+  <p align="center">
   <h1 align="center">NeXt-Stereo: Focusing on Cost Aggregation and Disparity Refinement for Lightweight Stereo-Matching</h1>
   <p align="center">
 
@@ -46,6 +46,18 @@ python main_sceneflow.py --attention_weights_only True --logdir ./checkpoints/sc
 Use the following command to train model on KITTI (using pretrained model on Scene Flow),
 ```
 python main_kitti.py --loadckpt ./checkpoints/sceneflow/complete/checkpoint_000023.ckpt --logdir ./checkpoints/kitti
+```
+
+
+## Evaluation on Scene Flow and KITTI
+
+### Pretrained Model
+NeXt-Stereo
+* [sceneflow]([https://drive.google.com/drive/folders/15pVddbGU6ByYWRWB_CFW2pzANU0mzdU5?usp=share_link](https://drive.google.com/drive/folders/1H353C-BNluA1RGXBAJqeMwVW3vVkv8B_?usp=sharing))
+
+Generate disparity images of KITTI test set,
+```
+python save_disp.py
 ```
 
 ## Submitted to KITTI benchmarks
