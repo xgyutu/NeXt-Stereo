@@ -2,9 +2,10 @@
   <h1 align="center">NeXt-Stereo: Focusing on Cost Aggregation and Disparity Refinement for Lightweight Stereo-Matching</h1>
   <p align="center">
 
-"### Paper Under Submission
 
-I am currently in the process of submitting my paper to an academic journal. Once the paper is accepted, I will update this section with relevant information. Thank you for your interest and patience."
+"### Manuscript in Submission
+
+I am currently in the process of submitting my manuscript to IEEE Transactions on Instrumentation and Measurement. Upon acceptance of the paper, I will update this section with the necessary details. Thank you for your interest and understanding."
 
 # How to use
 
