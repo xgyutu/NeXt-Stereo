@@ -34,21 +34,6 @@ pip install timm
 pip install basicsr
 ```
 
-### Install casual-conv1d
-
-```bash
-cd causal-conv1d
-
-python setup.py install
-```
-
-### Install mamba
-
-```bash
-cd mamba
-
-python setup.py install
-```
 
 ## Data Preparation
 Download [Scene Flow Datasets](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html), [KITTI 2012](http://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo), [KITTI 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
